@@ -15,7 +15,7 @@
       <div class="container mx-auto text-center" id="header-section">
         <img src="images/myProf.jpeg" alt="Profile" class="w-[200px] h-[200px] rounded-full mx-auto border-4 border-teal-500 shadow-lg" />
         <h1 class="text-3xl font-bold mt-4">Shafny Hadhy</h1><br>
-        <p class="text-teal-300">BSc (Hons) in Information Technology <br> Undergraduate at SLIIT</p>
+        <p class="text-teal-300">BSc (Hons) in Software Technology <br> Undergraduate at SLIIT</p>
         <a href="#contact" class="inline-block mt-4 px-6 py-2 bg-teal-500 hover:bg-teal-600 rounded-full text-white font-semibold">Contact Me</a>
       </div>
     </header>
@@ -24,16 +24,11 @@
       <div class="container mx-auto" id="about-section">
         <h2 class="text-3xl font-bold text-teal-400 mb-4">About Me</h2>
         <p class="leading-relaxed text-gray-300">
-          I’m an enthusiastic, down-to-earth IT student at SLIIT who loves turning ideas into working software. I’ve built a solid foundation 
+          I'm an enthusiastic, down-to-earth IT student at SLIIT who loves turning ideas into working software. I've built a solid foundation 
           in C, C++, Java, PHP, JavaScript, HTML, CSS and MySQL, and I enjoy crafting both responsive front-end interfaces and reliable back-end 
-          services. Lately I’ve been diving into MERN projects to level up my full-stack skills. I’m comfortable building RESTful APIs, designing 
+          services. Lately I've been diving into MERN projects to level up my full-stack skills. I'm comfortable building RESTful APIs, designing 
           databases, using Git, and debugging and testing — and I thrive working in agile teams to deliver solutions that actually help people. 
-          I’m curious, practice clean, maintainable code, and I’m always learning something new. 🚀
-          <br><br>
-          <span class="text-teal-400">🔹 Online Bill and Payment Reminder System:</span> Developed a user-friendly full-stack platform with admin dashboard and reminders.<br>
-          <span class="text-teal-400">🔹 Online Banking System:</span> Built using Java Servlets and MySQL with secure backend and admin features.
-          <br><br>
-          I'm passionate about solving real-world problems and excited to grow in the software or full-stack development space 🚀
+          I'm curious, practice clean, maintainable code, and I'm always learning something new. 🚀
         </p>
       </div>
     </section>
@@ -50,11 +45,11 @@
             <h3 class="text-xl font-semibold text-white mb-2">E-commerce System for Cosmetic Shop</h3>
             <p class="text-gray-300">An end-to-end MERN e-commerce application featuring product listings, user authentication, shopping cart, payments, and an intuitive admin panel.</p>
           </div>
-          <div class="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition cursor-pointer" onclick="openModal('project1')">
+          <div class="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition cursor-pointer" onclick="openModal('project3')">
             <h3 class="text-xl font-semibold text-white mb-2">Online Bill and Payment Reminder</h3>
             <p class="text-gray-300">A full-stack system for managing and reminding users of bills/events, featuring an admin dashboard and automation.</p>
           </div>
-          <div class="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition cursor-pointer" onclick="openModal('project2')">
+          <div class="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition cursor-pointer" onclick="openModal('project4')">
             <h3 class="text-xl font-semibold text-white mb-2">Online Banking System</h3>
             <p class="text-gray-300">Built with Java Servlets and JSP; includes login, balance check, transactions, and admin panel features.</p>
           </div>
@@ -72,19 +67,46 @@
 
     <section id="skills" class="py-12 px-6">
       <div class="container mx-auto" id="skills-section">
-        <h2 class="text-3xl font-bold text-teal-400 mb-6">Skills</h2>
-        <ul class="flex flex-wrap gap-4 text-gray-300">
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">C</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">C++</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">Java</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">HTML</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">CSS</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">JavaScript</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">PHP</li>
-          <li class="bg-gray-700 px-4 py-2 rounded-lg">MySQL</li>
-        </ul>
+        <h2 class="text-3xl font-bold text-teal-400 mb-6 text-center">Skills</h2>
+
+        <!-- Languages -->
+        <h3 class="text-xl font-semibold text-teal-300 mb-2">Languages</h3>
+        <div class="grid grid-cols-1 gap-4 mb-6 ">
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">C</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">C++</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">Java</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">PHP</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">JavaScript</span>
+        </div>
+
+        <!-- Web / MERN -->
+        <h3 class="text-xl font-semibold text-teal-300 mb-2">Web / MERN</h3>
+        <div class="grid grid-cols-1 gap-4 mb-6 ">
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">HTML</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">CSS</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">React.js</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">Node.js</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">Express.js</span>
+        </div>
+
+        <!-- Databases -->
+        <h3 class="text-xl font-semibold text-teal-300 mb-2">Databases</h3>
+        <div class="grid grid-cols-1 gap-4 mb-6 ">
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">MySQL</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">MongoDB</span>
+        </div>
+
+        <!-- Tools & Practices -->
+        <h3 class="text-xl font-semibold text-teal-300 mb-2">Tools & Practices</h3>
+        <div class="grid grid-cols-1 gap-4 ">
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">REST APIs</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">Git & GitHub</span>
+          <span class="bg-gray-600 text-white px-4 py-2 rounded-full shadow">Agile / Scrum</span>
+        </div>
       </div>
     </section>
+
+
 
     <section id="resume" class="bg-gray-800 py-12 px-6">
       <div class="container mx-auto text-center" id="resume-section">
@@ -128,14 +150,47 @@
         });
       });
 
+      const modalContent = {
+        project1: `
+          <h2 class='text-2xl text-teal-400 font-bold mb-2'>Coconut Plantation Management System</h2>
+          <p class='text-gray-300'>A MERN-based platform to manage plantation operations with dashboards, workforce tracking, inventory, and marketplace integration. Designed for efficiency and scalability.</p>
+          <p class="text-gray-400 text-sm mt-2">Tech: MongoDB, Express, React, Node.js</p>
+          <div class="mt-4 flex justify-center items-center gap-3">
+            <a href="https://github.com/ShafnyHadhy/Coconut-Plantation-System" target="_blank" class="px-4 py-2 bg-teal-500 hover:bg-teal-600 rounded text-white font-semibold">GitHub</a>
+            <a href="#" target="_blank" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-white font-semibold">Live Demo</a>
+          </div>
+        `,
+        project2: `
+          <h2 class='text-2xl text-teal-400 font-bold mb-2'>E-commerce System for Cosmetic Shop</h2>
+          <p class='text-gray-300'>An end-to-end MERN e-commerce application with product catalogs, authentication, shopping cart, secure payments, and an admin dashboard. Focused on usability and smooth experience.</p>
+          <p class="text-gray-400 text-sm mt-2">Tech: MongoDB, Express, React, Node.js</p>
+          <div class="mt-4 flex justify-center items-center gap-3">
+            <a href="https://github.com/ShafnyHadhy/Cosmetic-Ecommerce" target="_blank" class="px-4 py-2 bg-teal-500 hover:bg-teal-600 rounded text-white font-semibold">GitHub</a>
+            <a href="#" target="_blank" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-white font-semibold">Live Demo</a>
+          </div>
+        `,
+        project3: `
+          <h2 class='text-2xl text-teal-400 font-bold mb-2'>Online Bill and Payment Reminder</h2>
+          <p class='text-gray-300'>A system to manage and remind users about bills and events. Includes an admin dashboard, automated notifications, and data management tools for reliability.</p>
+          <p class="text-gray-400 text-sm mt-2">Tech: PHP, MySQL, JavaScript</p>
+          <div class="mt-4 flex justify-center items-center gap-3">
+            <a href="https://github.com/ShafnyHadhy/Bill-Payment-Reminder" target="_blank" class="px-4 py-2 bg-teal-500 hover:bg-teal-600 rounded text-white font-semibold">GitHub</a>
+            <a href="#" target="_blank" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-white font-semibold">Live Demo</a>
+          </div>
+        `,
+        project4: `
+          <h2 class='text-2xl text-teal-400 font-bold mb-2'>Online Banking System</h2>
+          <p class='text-gray-300'>Developed with Java Servlets and JSP, this system supports user login, account balance checks, fund transfers, transaction history, and admin-level reporting.</p>
+          <p class="text-gray-400 text-sm mt-2">Tech: Java, JSP, MySQL</p>
+          <div class="mt-4 flex justify-center items-center gap-3">
+            <a href="https://github.com/ShafnyHadhy/Online-Banking-System" target="_blank" class="px-4 py-2 bg-teal-500 hover:bg-teal-600 rounded text-white font-semibold">GitHub</a>
+            <a href="#" target="_blank" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-white font-semibold">Live Demo</a>
+          </div>
+        `
+      };
+
       function openModal(projectId) {
-        const content = {
-          project1: `<h2 class='text-2xl text-teal-400 font-bold mb-2'>Online Bill and Payment Reminder</h2>
-                     <p class='text-gray-300'>This project includes bill tracking, automated notifications, and an admin dashboard for managing user data.</p>`,
-          project2: `<h2 class='text-2xl text-teal-400 font-bold mb-2'>Online Banking System</h2>
-                     <p class='text-gray-300'>Implemented with Java, Servlets, JSP, and MySQL. Supports user login, transaction history, balance management, and admin reporting tools.</p>`
-        };
-        document.getElementById("modal-content").innerHTML = content[projectId];
+        document.getElementById("modal-content").innerHTML = modalContent[projectId];
         document.getElementById("modal").classList.remove("hidden");
         document.getElementById("modal").classList.add("flex");
       }
